@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/quant_finance_blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/interpreting_fama_french_factors.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Initial Commit - Quant Finance Blog">
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/bias_decomposition_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/bias_vs_ex_post_and_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/code/factor_model_simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/risk_model_parameter_comparison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +26,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -44,6 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/bened/PycharmProjects/quant_finance_blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +59,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog" />
+      <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog\factor_model_theory" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="quant_finance_blog" />
@@ -92,12 +105,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719393479546</updated>
-      <workItem from="1719393491260" duration="41572000" />
+      <workItem from="1719393491260" duration="107914000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit - Quant Finance Blog">
+      <option name="closed" value="true" />
+      <created>1719524614220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719524614220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit - Quant Finance Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Quant Finance Blog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
