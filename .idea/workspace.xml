@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Initial Commit - Quant Finance Blog">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/bias_decomposition_comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/bias_vs_ex_post_and_true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/code/factor_model_simulator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/risk_model_parameter_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boe_data/boe_mortgage_rates.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boe_data/data/barclays_mortgage_rates.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/boe_yield_curve_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/ecb_yield_curve_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/fed_yield_curve_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/factor_risk_bias_stats.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -36,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2iPY3UjmFjba1EApXn7n18z0vVt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bened/PycharmProjects/quant_finance_blog",
+    "last_opened_file_path": "C:/Users/bened/PycharmProjects/quant_finance_blog/yield_curve_analysis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog\yield_curve_analysis" />
       <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog" />
       <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog\factor_model_theory" />
     </key>
@@ -106,6 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719393479546</updated>
       <workItem from="1719393491260" duration="107914000" />
+      <workItem from="1721138781695" duration="31488000" />
+      <workItem from="1721647696334" duration="24278000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Quant Finance Blog">
       <option name="closed" value="true" />
@@ -127,13 +127,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
