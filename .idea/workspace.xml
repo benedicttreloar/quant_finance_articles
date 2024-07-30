@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Initial Commit - Quant Finance Blog">
-      <change afterPath="$PROJECT_DIR$/boe_data/boe_mortgage_rates.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boe_data/data/barclays_mortgage_rates.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/boe_yield_curve_data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/ecb_yield_curve_data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/fed_yield_curve_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/estimate_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/estimation_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/factor_model_simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/passwords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/portfolios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/code/true_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model/ticker_list_compiler.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factor_model_theory/code/simulated_market.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quant_finance_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quant_finance_blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "benedicttreloar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/benedicttreloar/quant_finance_articles.git",
+    "accountId": "1e5b2e8c-68bc-4344-b77c-c048732b5b5f"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,21 +64,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bened/PycharmProjects/quant_finance_blog/yield_curve_analysis",
+    "last_opened_file_path": "C:/Users/bened/PycharmProjects/quant_finance_articles/factor_model",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bened\PycharmProjects\quant_finance_articles\factor_model" />
+      <recent name="C:\Users\bened\PycharmProjects\quant_finance_articles\factor_model\code" />
       <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog\yield_curve_analysis" />
       <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog" />
       <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog\factor_model_theory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bened\PycharmProjects\quant_finance_articles" />
     </key>
   </component>
   <component name="RunManager">
@@ -91,7 +116,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-eebebe6c2be4-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15325.20" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -106,6 +132,7 @@
       <workItem from="1719393491260" duration="107914000" />
       <workItem from="1721138781695" duration="31488000" />
       <workItem from="1721647696334" duration="24278000" />
+      <workItem from="1722333935527" duration="20950000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Quant Finance Blog">
       <option name="closed" value="true" />
@@ -127,6 +154,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/bened/PycharmProjects/quant_finance_articles/factor_model/factor_model_estimator.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
