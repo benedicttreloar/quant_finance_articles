@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Initial Commit - Quant Finance Blog">
-      <change afterPath="$PROJECT_DIR$/boe_data/boe_mortgage_rates.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boe_data/data/barclays_mortgage_rates.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/boe_yield_curve_data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/ecb_yield_curve_data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yield_curve_analysis/fed_yield_curve_data.ipynb" afterDir="false" />
+    <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Added BoE OIS spreadsheets to data store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/factor_model_simulator.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bened/PycharmProjects/quant_finance_blog/yield_curve_analysis",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bened/PycharmProjects/quant_finance_blog/yield_curve_analysis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bened\PycharmProjects\quant_finance_blog\yield_curve_analysis" />
@@ -105,7 +99,8 @@
       <updated>1719393479546</updated>
       <workItem from="1719393491260" duration="107914000" />
       <workItem from="1721138781695" duration="31488000" />
-      <workItem from="1721647696334" duration="24278000" />
+      <workItem from="1721647696334" duration="31582000" />
+      <workItem from="1722851680746" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Quant Finance Blog">
       <option name="closed" value="true" />
@@ -115,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719524614220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added yield corve download and analysis capabilities&#10;BoE automated data download still doesnt work unfortunately">
+      <option name="closed" value="true" />
+      <created>1721741012703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721741012703</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added BoE OIS spreadsheets to data store">
+      <option name="closed" value="true" />
+      <created>1721741058716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721741058716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +134,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit - Quant Finance Blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Quant Finance Blog" />
+    <MESSAGE value="Added yield corve download and analysis capabilities&#10;BoE automated data download still doesnt work unfortunately" />
+    <MESSAGE value="Added BoE OIS spreadsheets to data store" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BoE OIS spreadsheets to data store" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
