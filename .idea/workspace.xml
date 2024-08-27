@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Initial Commit - Quant Finance Blog">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/quant_finance_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quant_finance_blog.iml" afterDir="false" />
+    <list default="true" id="e835d866-0957-41d9-801c-263c9c2189b1" name="Changes" comment="Fundamental Factor Models&#10;Type I and Type II error analysis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factor_model_theory/ffm_factor_type_one_type_two_errors.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +120,7 @@
       <workItem from="1721647696334" duration="24278000" />
       <workItem from="1722333935527" duration="20950000" />
       <workItem from="1723451449011" duration="9456000" />
-      <workItem from="1723648553957" duration="9959000" />
+      <workItem from="1723648553957" duration="10620000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Quant Finance Blog">
       <option name="closed" value="true" />
@@ -133,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719524614220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fundamental Factor Models&#10;Type I and Type II error analysis">
+      <option name="closed" value="true" />
+      <created>1723803410417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723803410417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit - Quant Finance Blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Quant Finance Blog" />
+    <MESSAGE value="Fundamental Factor Models&#10;Type I and Type II error analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fundamental Factor Models&#10;Type I and Type II error analysis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
